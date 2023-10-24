@@ -1,0 +1,248 @@
+.section-proyect {
+    padding: 2rem 1rem;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proyect-title {
+    margin: 2rem auto;
+    padding: .5rem 0;
+    text-align: center;
+}
+
+.footer-proyect {
+
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    justify-content: space-between;
+    margin: 1rem auto;
+
+}
+
+.proyect-card {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
+.proyect-card>p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #000;
+}
+
+.swiper-card {
+    position: relative;
+    max-height: 500px;
+    max-width: 500px;
+}
+
+
+.swiper-card-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.swiper-card-text {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    background-color: var(--white-color);
+}
+
+.slide-proyects img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+
+    .section-proyect {
+        display: grid;
+        grid-template-columns: repeat(3, 26.66%);
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+
+    }
+
+    .footer-proyect {
+        grid-column: span 3;
+        grid-template-columns: repeat(3, 30%);
+
+    }
+
+    .slide-proyects {
+        grid-column: span 3;
+    }
+
+    .section-proyect>.proyect-title {
+        grid-column: span 3;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .footer-proyect {
+        grid-template-columns: repeat(6, 15%);
+        justify-content: center;
+
+    }
+
+    .swiper-card {
+        max-height: 350px;
+        max-width: 800px;
+    }
+
+    .proyect-card {
+        border-left: 0.1rem solid #87888c55;
+    }
+
+    .proyect-card:first-child {
+        border-left: none;
+
+    }
+
+    .slide-proyects img {
+        max-height: 350px;
+    }
+
+}
+
+
+
+
+/* .proyect {
+    background-color: var(--white-color);
+}
+
+.proyect-title {
+    margin: 2rem auto;
+    padding: .5rem 0;
+    text-align: center;
+}
+
+.proyect-section {
+    padding: 2rem 1rem;
+    background-color: aqua;
+}
+
+.h2-proyect {
+    font-size: 30px;
+}
+
+.slide-proyects {
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+
+.slide-proyects img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.swiper-card-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.swiper-card-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--white-color);
+}
+
+.proyect-card {
+    margin: 1rem auto;
+    padding: 1rem;
+    border-left: 1px solid #87888c55;
+    border-right: 1px solid #87888c00;
+    text-align: center;
+    display: none;
+}
+
+.proyect-card:first-child {
+    border-left: none;
+
+}
+
+.proyect-card:last-child {
+    border-right: none;
+
+}
+
+@media screen and (min-width: 768px) {
+    .proyect-card {
+        display: block;
+
+    }
+
+    .proyect>.container {
+        display: grid;
+        grid-template-columns: repeat(6, 16.6%);
+        justify-content: space-between;
+        align-content: center;
+
+    }
+
+    .proyect .proyect-title {
+        grid-column: span 6;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .h2-proyect {
+        text-align: start;
+        font-size: 2.6rem;
+    }
+
+    .p-proyect {
+        text-align: start;
+        margin-left: 50px
+    }
+
+    .swiper-card {
+        height: 380px;
+        width: 800px;
+    }
+
+} */

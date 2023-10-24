@@ -1,0 +1,148 @@
+.about {
+    background-color: #EBFBEE;
+}
+
+.about-details {
+    background-color: #0A4319;
+}
+
+.section-about {
+    padding: 2rem 1rem;
+}
+
+.section-about-details {
+    padding: 2rem 1rem;
+}
+
+
+.section-about>article {
+    margin-bottom: 2rem;
+}
+
+/* .section-about-details>article {
+    margin-bottom: 2rem;
+} */
+
+
+.text-center-about {
+    text-align: center;
+}
+
+.text-about-details {
+    color: var(--white-color);
+}
+
+.img-about {
+    max-height: 500px;
+    border-radius: 20px;
+}
+
+.img-content-about {
+    display: flex;
+    justify-content: center;
+
+}
+
+.img-card-about {
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+
+.card-info-about {
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 250px;
+    border-radius: 20px;
+    padding: 1rem;
+    background-color: var(--white-color);
+    margin: 20px;
+}
+
+
+.card-text-about>h3 {
+    font-size: 1.5rem;
+}
+
+.card-text-about>p {
+    color: #000;
+}
+
+.subcontent-about {
+    display: flex;
+    flex-direction: column;
+}
+
+.subcontent-text {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: var(--white-color);
+}
+
+.p-white {
+    color: var(--white-color);
+}
+
+.subcontent-about>p {
+    color: var(--white-color);
+}
+
+@media screen and (min-width: 1024px) {
+    .full-lg-screem {
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    .section-about {
+        display: grid;
+        grid-template-columns: repeat(2, 46%);
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+    }
+
+    .text-center-about>h2 {
+        font-size: 3.5rem;
+
+    }
+
+    .text-lg-left-about>p {
+        margin-bottom: 2.5rem;
+    }
+
+    .section-about-details {
+        display: grid;
+        grid-template-columns: repeat(2, 50%);
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+
+    }
+
+    .text-lg-left-about {
+        text-align: left;
+    }
+
+    .subcontent-about {
+        max-width: 470px;
+    }
+
+    .card-info-about {
+        top: 5rem;
+        right: -4.5rem;
+    }
+
+    .subcontent-text {
+        justify-content: space-between;
+    }
+
+    .h3-about {
+        font-size: 1.5rem;
+    }
+
+}
