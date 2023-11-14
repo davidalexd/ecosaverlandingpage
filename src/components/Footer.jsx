@@ -12,8 +12,8 @@ const Footer = () => {
                 <h4>twitter</h4>
 
             </a>
-            <a className="column">
-                <img href={'https://mail.google.com/'} src={s2}></img>
+            <a href={'https://mail.google.com/'} className="column">
+                <img src={s2}></img>
                 <h4>gmail</h4>
 
             </a>
