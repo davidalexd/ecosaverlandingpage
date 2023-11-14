@@ -5,7 +5,6 @@ const NavMenu = () => {
     const [isActive, setIsActive] = useState(false)
 
     return (
-
         <header className="header">
             <section className="container">
                 <div className="logo">
@@ -27,11 +26,11 @@ const NavMenu = () => {
                         </svg>}
                 </button>
                 <nav className={`menu ${isActive ? 'is-active' : ''}`}>
-                    <a href="#home">Inicio</a>
-                    <a href="#about">Nosotros</a>
-                    <a href="#details">Recompensas</a>
-                    <a href="#service">Servicios</a>
-                    <a href="#proyect">Tomar accion</a>
+                    <a href="#inicio">Inicio</a>
+                    <a href="#nosotros">Nosotros</a>
+                    <a href="#recompensas">Recompensas</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#contacto">Tomar accion</a>
                 </nav>
             </section>
         </header>

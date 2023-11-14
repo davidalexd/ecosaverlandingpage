@@ -1,9 +1,9 @@
 .about {
-    background-color: #EBFBEE;
+    background-color: #F1F1E9;
 }
 
 .about-details {
-    background-color: #0A4319;
+    background-color: #EBFBEE;
 }
 
 .section-about {
@@ -19,9 +19,6 @@
     margin-bottom: 2rem;
 }
 
-/* .section-about-details>article {
-    margin-bottom: 2rem;
-} */
 
 
 .text-center-about {
@@ -29,7 +26,7 @@
 }
 
 .text-about-details {
-    color: var(--white-color);
+    font-size: 2rem;
 }
 
 .img-about {
@@ -66,7 +63,17 @@
 .card-text-about>h3 {
     font-size: 1.5rem;
 }
+.card-text-about .button-app{
+    display: block;
+    padding: 0.5rem;
+    background-color: black;
+    color: white;
+    margin-top: 0.5rem;
+    border-radius: 20px;
+    text-align: center;
+    
 
+}
 .card-text-about>p {
     color: #000;
 }
@@ -74,6 +81,7 @@
 .subcontent-about {
     display: flex;
     flex-direction: column;
+    padding-left: 2rem;
 }
 
 .subcontent-text {
@@ -88,9 +96,7 @@
     color: var(--white-color);
 }
 
-.subcontent-about>p {
-    color: var(--white-color);
-}
+
 
 @media screen and (min-width: 1024px) {
     .full-lg-screem {
@@ -106,8 +112,14 @@
         align-items: center;
     }
 
+    .cols-span-2 {
+        text-align: center;
+        grid-column: span 2;
+        font-size: 3rem;
+    }
+
     .text-center-about>h2 {
-        font-size: 3.5rem;
+        font-size: 3rem;
 
     }
 
@@ -117,7 +129,7 @@
 
     .section-about-details {
         display: grid;
-        grid-template-columns: repeat(2, 50%);
+        grid-template-columns: repeat(12, 6%);
         justify-content: space-between;
         align-content: center;
         align-items: center;
@@ -128,9 +140,35 @@
         text-align: left;
     }
 
-    .subcontent-about {
-        max-width: 470px;
+    .cols-span-6 {
+        grid-column: span 6;
     }
+
+    .cols-span-7 {
+        grid-column: span 7;
+    }
+
+    .cols-span-4 {
+        grid-column: span 4;
+    }
+
+    .cols-span-8 {
+        grid-column: span 8;
+    }
+
+    .cols-span-12 {
+        grid-column: span 12;
+        text-align: center;
+        padding-bottom: 2rem;
+        font-size: 2rem;
+    }
+
+    .cols-span-4 {
+        grid-column: span 4;
+        padding-top: 2rem;
+        color: #288745;
+    }
+
 
     .card-info-about {
         top: 5rem;

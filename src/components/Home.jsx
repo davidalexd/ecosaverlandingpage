@@ -7,7 +7,7 @@ import f4 from '../assets/img/fruit4.jpg'
 
 const Home = () => {
   return (
-    <section id="home" className="section-home container">
+    <section id="inicio" className="section-home container">
       <article className='text-lg-left-home'>
         <aside className='text-center-home text-lg-left-home'>
           <h3 className="home-subtitle">EcoSaver</h3>
@@ -16,7 +16,7 @@ const Home = () => {
         </aside>
         <p className="description">¡Bienvenido a EcoSaver, donde la sostenibilidad se encuentra con la acción! ¿Quieres ser parte de un movimiento global hacia un futuro más verde? </p>
         <div className="content-btn-home">
-          <a className='btn-home'>
+          <a className='btn-home' href='https://www.figma.com/proto/cAFncwWqdwwslz89Cblt74/IOS-Prototype-Studying-Ecology?node-id=15-1831&starting-point-node-id=1%3A2'>
             Descargar App
             <svg
               width="24"
@@ -32,54 +32,8 @@ const Home = () => {
           </a>
         </div>
       </article>
-      <article>
-        <swiper-container class="swiper-home" pagination="true" effect="cube" grab-cursor="true" cube-effect-shadow="true"
-          cube-effect-slide-shadows="true" cube-effect-shadow-offset="20" cube-effect-shadow-scale="0.94">
-          <swiper-slide class='swiper-home-card'>
-            <img className='img-home' src={fruit1} />
-            <aside className="card-info-home">
-              <div className='card-text-home'>
-                <h3>Unete al cambio</h3>
-                <p>
-                Cuida tu planeta jugando
-                </p>
-              </div>
-            </aside>
-          </swiper-slide>
-          {/* <swiper-slide class='swiper-home-card'>
-            <img className='img-home' src={f2} />
-            <aside className="card-info-home">
-              <div className='card-text-home'>
-                <h3>50+ Licores </h3>
-                <p>
-                  Calidad garantizada
-                </p>
-              </div>
-            </aside>
-          </swiper-slide>
-          <swiper-slide class='swiper-home-card'>
-            <img className='img-home' src={f3} />
-            <aside className="card-info-home">
-              <div className='card-text-home'>
-                <h3>50K+ Lorem </h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur
-                </p>
-              </div>
-            </aside>
-          </swiper-slide>
-          <swiper-slide class='swiper-home-card'>
-            <img className='img-home' src={f4} />
-            <aside className="card-info-home">
-              <div className='card-text-home'>
-                <h3>50K+ Lorem </h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur
-                </p>
-              </div>
-            </aside>
-          </swiper-slide> */}
-        </swiper-container>
+      <article >
+        <img className='img-home' src={fruit1} alt="planeta"/>
       </article>
     </section>
   )

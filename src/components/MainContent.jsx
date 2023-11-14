@@ -11,6 +11,11 @@ const MainContent = () => {
     return (
         <>
             <Home />
+            <AboutUs />
+            <AboutDetails />
+            <Services />
+            <Contact />
+            <Footer />
             {/* <AboutUs />
             <AboutDetails />
             <Services />

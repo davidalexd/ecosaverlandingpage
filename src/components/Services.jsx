@@ -1,26 +1,26 @@
 import React from 'react'
 import '../assets/css/service.css'
-import fruit from '../assets/img/fruit1.jpg'
-import vegetable from '../assets/img/vegetable3.jpg'
-import super2 from '../assets/img/fruit3.jpg'
+import fruit from '../assets/img/save1.png'
+import vegetable from '../assets/img/save2.png'
+import super2 from '../assets/img/save3.png'
 const Services = () => {
   return (
-    <section id="service" className='service'>
+    <section id="servicios" className='service'>
       <div className="services-section container full-lg-screem">
         <div className="service-title">
           <h2 className='h2-service'>
-          Amplio catálogo de productos
+            Nuestros Servicios
           </h2>
-          <p className='p-service'>En nuestra tienda virtual, podrás explorar nuestro amplio catálogo de productos, verificar el stock y los precios actualizados.</p>
+
         </div>
         <article>
           <a className='service-card'>
             <img src={fruit} />
             <aside className="service-card-info">
               <div>
-                <h3>Lorem ipsum,</h3>
+                <h3>Asesoramiento Ambiental</h3>
                 <p className='service-card-p'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laboriosam hic tenetur recusandae aliquid omnis culpa
+                  Tu Guía hacia un Estilo de Vida Sostenible. Nuestros Expertos te Brindarán Consejos para Reducir tu Impacto Ambiental.
                 </p>
               </div>
             </aside>
@@ -31,9 +31,9 @@ const Services = () => {
             <img src={super2} />
             <aside className="service-card-info">
               <div>
-                <h3>Lorem ipsum,</h3>
+                <h3>SustainaMaterials</h3>
                 <p className='service-card-p'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laboriosam hic tenetur recusandae aliquid omnis culpa
+                  Descubre alternativas ecológicas con EcoSearch y explora materiales sostenibles en SustainaMaterials, todo en un solo lugar.
                 </p>
               </div>
             </aside>
@@ -44,9 +44,10 @@ const Services = () => {
             <img src={vegetable} />
             <aside className="service-card-info">
               <div>
-                <h3>Lorem ipsum,</h3>
+                <h3>EcoConnect,</h3>
                 <p className='service-card-p'>
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laboriosam hic tenetur recusandae aliquid omnis culpa
+                  Conéctate con Defensores, Comunidades Locales y Grupos Ambientalistas.
+                  Coordina y Actúa por el Medio Ambiente.
                 </p>
               </div>
             </aside>

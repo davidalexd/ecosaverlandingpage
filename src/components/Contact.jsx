@@ -7,7 +7,7 @@ import '../assets/css/contacto.css'
 import { fetchEmailJs } from '../helper/fetch';
 import Swal from 'sweetalert2';
 import { SyncLoader } from 'react-spinners';
-import fruit6 from '../assets/img/fruit6.jpg'
+import fruit6 from '../assets/img/contacto.jpg'
 const initialForm = {
   user_name: "",
   user_email: "",
@@ -57,6 +57,11 @@ const Contact = () => {
   };
   const sendEmail = async (e) => {
     e.preventDefault();
+    Swal.fire({
+      icon: 'success',
+      title: 'Genial!!',
+      text: 'El mensaje fue enviado a Ecosaver correctamente.',
+    });
 
     // let data = {
     //   service_id,
@@ -106,7 +111,7 @@ const Contact = () => {
 
   }
   return (
-    <section id="contact" className='contacto'>
+    <section id="contacto" className='contacto'>
       <div className="section-contacto container full-lg-screem">
         <div className="container-form">
           <div className="column-form">
@@ -114,7 +119,7 @@ const Contact = () => {
           </div>
           <div className="column-form">
             <form onSubmit={sendEmail} className="form">
-              <h2 className='h2-contacto'>Contactanos para saber más de nuestra App</h2>
+              <h2 className='h2-contacto'>Tomar acción</h2>
               <div className="form-group">
                 <label htmlFor="nombre">Nombre:</label>
                 <input type="text" name="user_name" value={user_name} placeholder="Ingresa tu nombre" onChange={onChangeForm} />
@@ -127,12 +132,11 @@ const Contact = () => {
                 <label htmlFor="telefono">Telefono:</label>
                 <input type="text" name="user_phone" value={user_phone} placeholder="Ingresa tu telefono" onChange={onChangeForm} />
               </div>
-
               <div className="form-group">
                 <label htmlFor="mensaje">Mensaje:</label>
                 <textarea id="mensaje" name="message" value={message} placeholder="Escribe tu mensaje" onChange={onChangeForm}></textarea>
               </div>
-              {!isLoading ? <button type="submit">Enviar</button> :
+              {!isLoading ? <button type="submit" onClick={sendEmail}>Enviar</button> :
                 <div className='spinner'>
                   <SyncLoader
                     color={'#36d7b7'}
@@ -141,6 +145,7 @@ const Contact = () => {
                     size={25}
                   />
                 </div>}
+              <h2 className='h2-contacto'>¡Gracias!</h2>
             </form>
           </div>
         </div>
