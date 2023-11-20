@@ -4,7 +4,6 @@ import AboutUs from './AboutUs'
 import Services from './Services'
 import Contact from './Contact'
 import Footer from './Footer'
-import Projects from './Projects'
 import AboutDetails from './AboutDetails'
 
 const MainContent = () => {
@@ -16,12 +15,6 @@ const MainContent = () => {
             <Services />
             <Contact />
             <Footer />
-            {/* <AboutUs />
-            <AboutDetails />
-            <Services />
-            <Projects />
-            <Contact />
-            <Footer /> */}
         </>
     )
 }

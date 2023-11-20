@@ -1,9 +1,7 @@
 import React from 'react'
 import '../assets/css/home.css'
-import fruit1 from '../assets/img/Planeta.png'
-import f2 from '../assets/img/fruit2.jpg'
-import f3 from '../assets/img/fruit3.jpg'
-import f4 from '../assets/img/fruit4.jpg'
+import planeta from '../assets/img/Planeta.png'
+
 
 const Home = () => {
   return (
@@ -33,7 +31,7 @@ const Home = () => {
         </div>
       </article>
       <article >
-        <img className='img-home' src={fruit1} alt="planeta"/>
+        <img className='img-home' src={planeta} alt="planeta"/>
       </article>
     </section>
   )

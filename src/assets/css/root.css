@@ -35,7 +35,14 @@ body {
 a {
   transition: all 0.5s ease-out;
 }
+ol{
+  padding-inline-start: 19px;
 
+}
+li{
+  font-family: 'Poppins-Medium';
+  font-size: 1rem;
+}
 a:hover {
   opacity: 0.75;
 }

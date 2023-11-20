@@ -23,14 +23,6 @@ const AboutUs = () => {
         <article className='img-content-about'>
           <div className='img-card-about'>
             <img className="img-about" src={super1} alt="img-about" />
-            <aside className="card-info-about">
-              <div className='card-text-about'>
-                <h3>El planeta esta en nuestras manos</h3>
-                <p>
-                  Comprometidos con el bienestar sostenible
-                </p>
-              </div>
-            </aside>
           </div>
         </article>
 

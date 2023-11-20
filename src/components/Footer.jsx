@@ -30,30 +30,3 @@ const Footer = () => {
 }
 
 export default Footer
-{/* <footer className="footer">
-<div classNameName='section-footer container'>
-    <div classNameName='content-footer-1'>
-        <h3 classNameName='h3-footer'> Lorem ipsum dolor.</h3>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-    </div>
-    <div classNameName='content-footer-2'>
-        <h3 classNameName='h3-footer'> Lorem ipsum .</h3>
-        <h4> Lorem ipsum dolor.</h4>
-        <h4> Lorem ipsum dolor.</h4>
-        <h4> Lorem ipsum dolor.</h4>
-        <h4> Lorem ipsum dolor.</h4>
-    </div>
-    <div classNameName='content-footer-2'>
-        <h3 classNameName='h3-footer'> Lorem ipsum .</h3>
-        <h4> Lorem ipsum dolor.</h4>
-        <h4> Lorem ipsum dolor.</h4>
-        <h4> Lorem ipsum dolor.</h4>
-        <h4> Lorem ipsum dolor.</h4>
-    </div>
-    <div classNameName='content-footer-1'>
-        <h3 classNameName='h3-footer'> Lorem ipsum dolor.</h3>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-    </div>
-</div>
-
-</footer> */}

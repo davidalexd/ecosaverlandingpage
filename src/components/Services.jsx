@@ -1,8 +1,8 @@
 import React from 'react'
 import '../assets/css/service.css'
-import fruit from '../assets/img/save1.png'
-import vegetable from '../assets/img/save2.png'
-import super2 from '../assets/img/save3.png'
+import save1 from '../assets/img/save1.png'
+import alianza from '../assets/img/save2.png'
+import eco from '../assets/img/save3.png'
 const Services = () => {
   return (
     <section id="servicios" className='service'>
@@ -15,7 +15,7 @@ const Services = () => {
         </div>
         <article>
           <a className='service-card'>
-            <img src={fruit} />
+            <img src={save1} alt="Imagen de el servicio para asesoriamiento ambiental brindada por Ecosaver"/>
             <aside className="service-card-info">
               <div>
                 <h3>Asesoramiento Ambiental</h3>
@@ -28,7 +28,7 @@ const Services = () => {
         </article>
         <article>
           <a className='service-card'>
-            <img src={super2} />
+            <img src={eco} alt="imagen refencial de ecoSearch una funcionalidad para obtener materiales sostenibles" />
             <aside className="service-card-info">
               <div>
                 <h3>SustainaMaterials</h3>
@@ -41,7 +41,7 @@ const Services = () => {
         </article>
         <article>
           <a className='service-card'>
-            <img src={vegetable} />
+            <img src={alianza}  alt='Imagen de las Alianzas entre la comunidad y ecosaver para la sostenibilidad del planeta'/>
             <aside className="service-card-info">
               <div>
                 <h3>EcoConnect,</h3>
@@ -59,139 +59,3 @@ const Services = () => {
 }
 
 export default Services
-
-
-
-
-{/*<article>
- <div>
-  <swiper-container class="mySwiper" navigation="true" pagination="true" effect="flip" grab-cursor="true">
-    <swiper-slide>
-      <img src=" https://swiperjs.com/demos/images/nature-1.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-    </swiper-slide>
-  </swiper-container>
-</div>
-<div className='service-card'>
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <path
-      d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z" />
-  </svg>
-  <h3>Lorem ipsum,</h3>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laboriosam hic tenetur recusandae aliquid omnis culpa
-  </p>
-</div>
-</article>
-<article>
-<div>
-  <swiper-container class="mySwiper" navigation="true" pagination="true" effect="flip" grab-cursor="true">
-    <swiper-slide>
-      <img src=" https://swiperjs.com/demos/images/nature-1.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-    </swiper-slide>
-  </swiper-container>
-</div>
-<div className='service-card'>
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <path
-      d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z" />
-  </svg>
-  <h3>Lorem ipsum,</h3>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laboriosam hic tenetur recusandae aliquid omnis culpa
-  </p>
-</div>
-</article>
-<article>
-<div>
-  <swiper-container class="mySwiper" navigation="true" pagination="true" effect="flip" grab-cursor="true">
-    <swiper-slide>
-      <img src=" https://swiperjs.com/demos/images/nature-1.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-    </swiper-slide>
-  </swiper-container>
-</div>
-<div className='service-card'>
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <path
-      d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z" />
-  </svg>
-  <h3>Lorem ipsum,</h3>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laboriosam hic tenetur recusandae aliquid omnis culpa
-  </p>
-</div>
-</article>
-<article>
-<div>
-  <swiper-container class="mySwiper" navigation="true" pagination="true" effect="flip" grab-cursor="true">
-    <swiper-slide>
-      <img src=" https://swiperjs.com/demos/images/nature-1.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-    </swiper-slide>
-  </swiper-container>
-</div>
-<div className='service-card'>
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <path
-      d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z" />
-  </svg>
-  <h3>Lorem ipsum,</h3>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laboriosam hic tenetur recusandae aliquid omnis culpa
-  </p>
-</div>
-</article>
-<article>
-<div>
-  <swiper-container class="mySwiper" navigation="true" pagination="true" effect="flip" grab-cursor="true">
-    <swiper-slide>
-      <img src=" https://swiperjs.com/demos/images/nature-1.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-    </swiper-slide>
-  </swiper-container>
-</div>
-<div className='service-card'>
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <path
-      d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z" />
-  </svg>
-  <h3>Lorem ipsum,</h3>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laboriosam hic tenetur recusandae aliquid omnis culpa
-  </p>
-</div>
-</article>
-<article>
-<div>
-  <swiper-container class="mySwiper" navigation="true" pagination="true" effect="flip" grab-cursor="true">
-    <swiper-slide>
-      <img src=" https://swiperjs.com/demos/images/nature-1.jpg" />
-    </swiper-slide>
-    <swiper-slide>
-      <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
-    </swiper-slide>
-  </swiper-container>
-</div>
-<div className='service-card'>
-  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-    <path
-      d="M20,3H7C5.897,3,5,3.897,5,5v2H4C2.897,7,2,7.897,2,9v10c0,1.103,0.897,2,2,2h6c1.103,0,2-0.897,2-2h8c1.103,0,2-0.897,2-2 V5C22,3.897,21.103,3,20,3z M6,9h4l-0.003,9H4V9H6z M12,17V9c0-1.103-0.897-2-2-2H7V5h11v12H12z" />
-  </svg>
-  <h3>Lorem ipsum,</h3>
-  <p>
-    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellendus laboriosam hic tenetur recusandae aliquid omnis culpa
-  </p>
-</div>
-</article> */}

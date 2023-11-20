@@ -30,8 +30,9 @@
 }
 
 .img-about {
-    max-height: 500px;
     border-radius: 20px;
+   height: 450px;
+   width: auto;
 }
 
 .img-content-about {
@@ -50,13 +51,15 @@
 
 .card-info-about {
     position: absolute;
-    top: 0;
+    margin-bottom: 1.5rem;
+    margin-right: 1.5rem;
     right: 0;
+    bottom: 0;
     max-width: 250px;
     border-radius: 20px;
     padding: 1rem;
     background-color: var(--white-color);
-    margin: 20px;
+   
 }
 
 
@@ -81,9 +84,10 @@
 .subcontent-about {
     display: flex;
     flex-direction: column;
-    padding-left: 2rem;
 }
-
+.subcontent-about>li{
+    padding-bottom: 1rem;
+}
 .subcontent-text {
     display: flex;
     justify-content: space-around;
@@ -169,11 +173,6 @@
         color: #288745;
     }
 
-
-    .card-info-about {
-        top: 5rem;
-        right: -4.5rem;
-    }
 
     .subcontent-text {
         justify-content: space-between;

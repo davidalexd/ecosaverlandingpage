@@ -7,7 +7,7 @@ import '../assets/css/contacto.css'
 import { fetchEmailJs } from '../helper/fetch';
 import Swal from 'sweetalert2';
 import { SyncLoader } from 'react-spinners';
-import fruit6 from '../assets/img/contacto.jpg'
+import contacto from '../assets/img/contacto.jpg'
 const initialForm = {
   user_name: "",
   user_email: "",
@@ -115,7 +115,7 @@ const Contact = () => {
       <div className="section-contacto container full-lg-screem">
         <div className="container-form">
           <div className="column-form">
-            <img src={fruit6} />
+            <img src={contacto} alt="imagen refencial de contacto" />
           </div>
           <div className="column-form">
             <form onSubmit={sendEmail} className="form">
